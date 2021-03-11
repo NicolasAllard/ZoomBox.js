@@ -35,11 +35,12 @@ in head of the HTML document.
 
 ## Other method(s)
 
-<b>destroy();</b>
 
-You can destroy instance simply by using the destroy method. <br>
 
-`zoomBox.destroy();`
+| Method | Usage | Description |
+|--|--|--|
+| Destroy | ` zoomBox.destroy(); ` | Destroy the instance of the ZoomBox and the element it generated |
+
 
 ## TODO
 

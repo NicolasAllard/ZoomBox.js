@@ -13,7 +13,7 @@ in head of the HTML document.
 
 ## How to use
 
-1. Create a new instance of the ZoomBox
+1. Create a new instance of the ZoomBox <br>
 `let zoomBox = new ZoomBox(image, posX, posY, width, height, regionWidth, regionHeight, zoomBoxWrapper);`
 
 | Parameter | Type | Description |

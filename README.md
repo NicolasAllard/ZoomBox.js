@@ -1,3 +1,5 @@
+
+
 # ZoomBox.js
 
 ZoomBox.js is a small JavaScript library that turns a user's cursor into a magnifying glass that works on any images.
@@ -18,7 +20,7 @@ in head of the HTML document.
 
 | Parameter | Type | Description |
 |--|--|--|
-| image | Object | DOM element of the targeted image. The parent of this DOM must have its position set as relative. |
+| image | Object | DOM element of the targeted image. The parent of this DOM must have its position set as relative. Finally, make sure the image is correctly loaded before creating the ZoomBox instance |
 | posX | String | X position for the ZoomBox |
 | posY | String | Y position for the ZoomBox |
 | width | String | Width for the ZoomBox |
@@ -26,3 +28,21 @@ in head of the HTML document.
 | regionWidth | String | Magnifying glass lens width |
 | regionHeight | String | Magnifying glass lens height |
 | zoomBoxWrapper | Object | DOM element in which the ZoomBox should be created |
+<br>
+2. Initiate the ZoomBox using the Init() method.<br>
+
+   `zoomBox.init()`
+
+## Other method(s)
+
+<b>destroy();</b>
+
+You can destroy instance simply by using the destroy method. <br>
+
+`zoomBox.destroy();`
+
+## TODO
+
+ - [ ] Add a example project
+ - [ ] Add parameters to add custom classes for a ZoomBox instance and the lens.
+

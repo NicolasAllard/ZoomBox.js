@@ -1,3 +1,7 @@
+//Author: Nicolas Allard
+//Date: 2021-03-11
+//Github: https://github.com/NicolasAllard/ZoomBox.js
+
 class ZoomBox
 {
     //Params:

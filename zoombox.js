@@ -5,14 +5,14 @@
 class ZoomBox
 {
     //Params:
-    //@image = image element to zoom on
-    //@posX = X position where to put the Zoom box
-    //@posY = Y position where to put the Zoom box
-    //@width = width of the ZoomBox
-    //@height = height of the ZoomBox
-    //@regionWidth = Zoom lens width
-    //@regionHeight = Zoom lens height
-    //@zoomBoxWrapper = Wrapper element in which the zoom box with be created
+    //@image {object} : image element to zoom on
+    //@posX {string} : X position where to put the Zoom box
+    //@posY {string} : Y position where to put the Zoom box
+    //@width {string} : width of the ZoomBox
+    //@height {string} : height of the ZoomBox
+    //@regionWidth {string} : Zoom lens width
+    //@regionHeight {string} : Zoom lens height
+    //@zoomBoxWrapper {object} : Wrapper element in which the zoom box with be created
     constructor(image, posX, posY, width, height, regionWidth, regionHeight, zoomBoxWrapper)
     {
         //Verify the image exists
@@ -155,7 +155,7 @@ class ZoomBox
 
     //Get cursor position from event object
     //Params:
-    //@e = event object
+    //@e {object} = event object
     //Returns Object { x: mouse position in image, y: mouse y position in image, pageX: mous x position in page, pageY: mouse y position in page}
     getPos(e)
     {

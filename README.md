@@ -24,5 +24,5 @@ in head of the HTML document.
 | width | String | Width for the ZoomBox |
 | height | String | Height for the ZoomBox |
 | regionWidth | String | Magnifying glass lens width |
-| regionHeight | String | Magnifying glass lens Height |
+| regionHeight | String | Magnifying glass lens height |
 | zoomBoxWrapper | Object | DOM element in which the ZoomBox should be created |
